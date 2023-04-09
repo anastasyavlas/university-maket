@@ -3,12 +3,41 @@
 }
 
 .header{
-    min-height: 80px;
-    background-color: #213B7E;
     display: flex;
-    box-sizing: border-box;
+    min-height: 80px;
     width: 1300px;
+    background-color: #213B7E;
+    box-sizing: border-box;
     margin: 0 auto;
     padding: 0 15px;
+    justify-content: space-between;
+    align-items: center;
+    }
 
-}
+    .site-logo{
+
+    }
+
+    .site-menu{
+    display: flex;
+    align-self: stretch;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    }
+
+    .site-menu > li {
+        display: flex;
+    }
+
+    .menu-link{
+        display: flex;
+        align-items: center;
+        padding: 0 18px;
+        background-color: #213B7E;
+        color: #FFFFFF;
+    }
+
+    .login-button{
+        
+    }
