@@ -24,6 +24,8 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    text-decoration-line: underline; /*делает нижнее подчеркивание, как в макете,
+    но почему-то здесь это не сработало, хотя в лекции добавили именно здесь*/
     }
 
     .site-menu > li {
@@ -36,8 +38,28 @@
         padding: 0 18px;
         background-color: #213B7E;
         color: #FFFFFF;
+        font-weight: 400;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        text-decoration-line: underline; /*вставила это свойство здесь, тк в классе
+        .site-menu это свойство не сработало почему-то*/
+    }
+
+    .menu-link:hover{
+        background-color: #FFFFFF;
+        color: #213B7E;
+        text-decoration: none;
     }
 
     .login-button{
-        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        color: #FFFFFF;
+        text-decoration: none; /*убирает нижнее подчеркивание у текста ссылки
+                                у нас кнопка = ссылка*/
+        background-color: #EA5D21;
+        width: 153px;
+        min-height: 50px;
     }
