@@ -1,3 +1,7 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
 .page{
     margin: 0;
 }
@@ -40,7 +44,8 @@
         color: #FFFFFF;
         font-weight: 400;
         font-size: 20px;
-        font-family: 'Roboto', sans-serif;
+        /*font-family: 'Roboto', sans-serif; вставила шрифт на всю страницу сразу
+        т к на стр в макете один шрифт, ч/з селектор html, см здесь вверху*/ 
         text-decoration-line: underline;  /* вставила это свойство здесь, тк в классе
         .site-menu это свойство не сработало почему-то*/
     }
@@ -62,4 +67,7 @@
         background-color: #EA5D21;
         width: 153px;
         min-height: 50px;
+        /*font-family: 'Roboto', sans-serif; вставила шрифт на всю страницу сразу
+        т к на стр в макете один шрифт, ч/з селектор html, см здесь вверху*/ 
+        font-weight: 400;
     }
