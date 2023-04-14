@@ -6,6 +6,8 @@ html{
     margin: 0;
 }
 
+/*Header*/
+
 .header{
     display: flex;
     min-height: 80px;
@@ -70,4 +72,14 @@ html{
         /*font-family: 'Roboto', sans-serif; вставила шрифт на всю страницу сразу
         т к на стр в макете один шрифт, ч/з селектор html, см здесь вверху*/ 
         font-weight: 400;
+    }
+
+    /* Main*/
+
+    .main{
+        height: 720px;
+        width: 911px;
+        margin: 0 auto;
+
+
     }
