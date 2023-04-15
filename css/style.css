@@ -3,6 +3,9 @@ html{
 }
 
 .page{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     margin: 0;
 }
 
@@ -77,9 +80,58 @@ html{
     /* Main*/
 
     .main{
-        height: 720px;
+        min-height: 720px;
         width: 911px;
         margin: 0 auto;
+        flex-grow: 1;
+    }
 
+    .main-heading{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .class-photo{
+        width: 523px;
+        height: 316px;
+    }
+
+    h2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+    }
+
+    .intro-text {
+        width: 634px;
+        height: 127px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    /* footer*/
+
+    .footer {
+        display: flex;
+        box-sizing: border-box;
+        width: 1300px;
+        min-height: 60px;
+        margin: 0 auto;
+        padding: 0 16px;
+        justify-content: center;
+        align-items: center;
+        background-color: #213B7E;
+    }
+
+    .copyright {
+
+    }
+
+    .innop-link {
 
     }
