@@ -105,6 +105,10 @@ html{
         font-size: 25px;
     }
 
+    em{        
+        color: #CF5510;
+    }
+
     .intro-text {
         width: 634px;
         height: 127px;
@@ -129,9 +133,17 @@ html{
     }
 
     .copyright {
-
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.5);    
     }
 
     .innop-link {
-
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.5);
     }
